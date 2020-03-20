@@ -1,0 +1,212 @@
+body {
+    background-color: #fff;
+}
+
+.mhr {
+    border: .5px solid #000;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.head,
+.mid {
+    background-color: rgb(255, 214, 0);
+    font-family: 'Passion One', cursive;
+}
+
+.head .line-blue,
+.mid .line-blue {
+    width: 10%;
+    border: 1.5px solid rgb(0, 117, 178);
+}
+
+/* JUMBOTRON */
+.head h4 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 55px;
+}
+
+.head img {
+    width: 300px;
+}
+
+.head img:last-child {
+    width: 400px;
+}
+
+.head p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.head button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    border: 3px solid;
+}
+
+/* END JUMBOTRON */
+
+/* REGISTER */
+.register {
+    font-family: 'Raleway', sans-serif;
+    width: 70%;
+    position: relative;
+    padding: 25px 40px;
+    background-color: rgb(255, 214, 0);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.4);
+    transition: box-shadow .4s ease;
+}
+
+.register:hover {
+    box-shadow: none;
+}
+
+.register p {
+    color: rgb(45, 45, 45);
+}
+
+.my-5xx {
+    margin: 60px 0;
+}
+
+/* END REGISTER */
+
+/* COMMIT IMPORTIR */
+.commit-importir svg {
+    font-size: 100px;
+}
+
+.commit-importir p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+/* END COMMIT IMPORTIR */
+
+/* IMPORTIR LIPUTAN */
+.importir-liputan h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+}
+
+/* END IMPORTIR LIPUTAN */
+/* JUMBOTRON MID */
+.mid h3 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 55px;
+}
+
+.mid h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.mid p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.mid .register {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(66, 185, 159);
+    box-shadow: none;
+    transition: border .5s ease;
+}
+
+.mid .register:hover {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-bottom: 4px solid rgb(66, 185, 159);
+}
+
+.mid .register h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(237, 239, 240);
+}
+
+.mid .register span {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(237, 239, 240);
+}
+
+/* END JUMBOTRON MID */
+/* APA ITU IMPORTIR */
+.importir-what h1 {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 214, 0);
+    font-size: 32px;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.langkah-importir h2,
+.langkah-importir p,
+.six-steps h1,
+.six-steps p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+.langkah-importir p {
+    font-size: 16px;
+}
+
+.keterangan-importir {
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    float: left;
+}
+
+.keterangan-importir svg {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 10px !important;
+    background-color: rgb(255, 214, 0) !important;
+    color: rgb(255, 214, 0) !important;
+    background: #f9f9f9 !important;
+    border: 1px solid #eee !important;
+    border-bottom: 2px solid #eee !important;
+    border-radius: 4px;
+}
+
+.six-steps .s-item svg {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.six-steps .a-row svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.six-steps p {
+    font-size: 23px;
+}
+
+/* END APA ITU IMPORTIR */
+/* SOURCING PRODUCTS */
+.sourcing-products video {
+    width: 430px;
+    height: 430px;
+}
+
+/* END SOURCING PRODUCTS */
