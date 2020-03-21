@@ -7,9 +7,11 @@
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans:400,700|Passion+One:400,700|Raleway:400,700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" href="img/logo/mstile-70x70.png" type="image/x-icon">
     <title>IMPORTIR.ORG | KW</title>
 </head>
 
@@ -37,7 +39,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="mulaiDariSini">
         <div class="row my-5xx">
             <div class="col text-center">
                 <button type="button" class="btn register rounded-0" data-toggle="modal" data-target="#register">
@@ -162,7 +164,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="apaItuImportir">
         <div class="row my-5 importir-what">
             <h1 class="text-uppercase">apa itu <span class="font-weight-bold">importir.org ?</span></h1>
         </div>
@@ -289,15 +291,473 @@
             </div>
         </div>
         <hr class="mhr">
-        <div class="row sourcing-products">
-            <div class="col-lg-4 col-md-12 col-sm-12">
-                <video
-                    src="https://d2jnbxtr5v4vqu.cloudfront.net/filemanager/Dery/sourching-produk-2020_03_03_15_33_07.mp4"
-                    autoplay loop muted>
+        <div class="row sourcing-products justify-content-between">
+            <div class="col-lg-4 col-md-12 col-sm-12 first-column">
+                <video src="video/sourching-produk-2020_03_03_15_33_07.mp4" autoplay loop muted>
                 </video>
             </div>
-            <div class="col lg-8 col-md-12 col-sm-12">
-                <i class="fas fa-search"></i>
+            <div class="col-lg-7 col-md-12 col-sm-12 last-column">
+                <div id="icon">
+                    <i class="fas fa-search mt-5"></i>
+                </div>
+                <h3 class="mt-3">Sourcing Produk</h3>
+                <p class="my-3">Tidak hanya dari China, kami membantu member kami agar dapat melakukan importasi dari
+                    seluruh dunia
+                    seperti: Jepang, USA, Eropa. Anda dapat langsung mengimport dari berbagai platform di seluruh dunia
+                    & kami akan membantu proses importasinya.</p>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                            data-target="#register">
+                            <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> mulai
+                                dari sini
+                            </h5>
+                            <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mhr">
+        <div class="row pembayaran-products justify-content-between">
+            <div class="col-lg-4 col-md-12 col-sm-12 first-column">
+                <video src="video/pembayaran-produk-02-2020_03_10_09_18_06.mp4" autoplay loop muted>
+                </video>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 last-column">
+                <div id="icon" class="text-right">
+                    <i class="fas fa-hand-holding-usd mt-5"></i>
+                </div>
+                <h3 class="mt-3 text-right">Pembayaran Produk</h3>
+                <p class="my-3 text-right">Kami memiliki kantor kami sendiri di China, Anda sudah tidak perlu khawatir
+                    lagi
+                    mengenai pembayaran. Kami akan membantu seluruh pembayaran anda ke supplier anda.</p>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                            data-target="#register">
+                            <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> mulai
+                                dari sini
+                            </h5>
+                            <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mhr">
+        <div class="row proses-beacukai justify-content-between">
+            <div class="col-lg-4 col-md-12 col-sm-12 first-column">
+                <video src="video/beacukai1-2020_03_10_11_11_23.mp4" autoplay loop muted>
+                </video>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 last-column">
+                <div id="icon">
+                    <i class="fas fa-dollar-sign mt-5"></i>
+                </div>
+                <h3 class="mt-3">Proses Bea & Cukai</h3>
+                <p class="my-3">Kami memiliki ahli bea cukai (bersertifikat) untuk membantu member IMPORTIR.ORG agar
+                    tidak melakukan kesalahan dalam memilih HSCODE sehingga proses bea & cukai LANCAR saat melakukan
+                    importasi ke Indonesia.</p>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                            data-target="#register">
+                            <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> mulai
+                                dari sini
+                            </h5>
+                            <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mhr">
+        <div class="row pelatihan-import justify-content-between">
+            <div class="col-lg-4 col-md-12 col-sm-12 first-column">
+                <video src="video/shipping1-2020_03_10_01_04_16.mp4" autoplay loop muted>
+                </video>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 last-column">
+                <div id="icon" class="text-right">
+                    <i class="fas fa-graduation-cap mt-5"></i>
+                </div>
+                <h3 class="mt-3 text-right">Pelatihan Export-Import</h3>
+                <p class="my-3 text-right">Kami menyediakan academy importir.com, yaitu pelatihan online sehingga anda
+                    paham bagaimana memanfaatkan bisnis IMPORT karena berisi tips tips bagaimana para importir
+                    menjalankan bisnisnya sehingga menghasilkan profit</p>
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                            data-target="#register">
+                            <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> mulai
+                                dari sini
+                            </h5>
+                            <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mhr">
+    </div>
+    <div class="jumbotron jumbotron-fluid mt-5 jumbo-bg-yellow">
+        <div class="container jumbo-counter">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+                    <h2>Sudah 2000+ Mahasiswa, Karyawan, Pengusaha & Artis Papan Atas Bergabung Bersama Kami.</h2>
+                    <p>Kini saat nya anda memulai bisnis IMPORT.</p>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                                data-target="#register">
+                                <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i>
+                                    mulai
+                                    dari sini
+                                </h5>
+                                <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="productImportChina">
+        <div class="row my-5 see-our-products">
+            <div class="col">
+                <h1 class="text-capitalize"><span>Lihat</span> produk yang dapat di import dengan
+                    <span>importir.org dari china</span></h1>
+                <p>Kurang dari 10 menit, Anda dapat melakukan importasi setelah mengikuti seminar kami.</p>
+                <hr class="line">
+            </div>
+        </div>
+        <div class="row my-3 avaliable-product">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <a href="#">
+                    <img src="img/barang-import/1set-1080x1920.jpg" alt="Tas Wanita" class="img-fluid">
+                </a>
+                <h5 class="text-center mt-3">Penjual: DZLST</h5>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <a href="#">
+                    <img src="img/barang-import/mombaby2-1080x1920.jpg" alt="Sepedah" class="img-fluid">
+                </a>
+                <h5 class="text-center mt-3">Penjual: Aireebay</h5>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <a href="#">
+                    <img src="img/barang-import/phone2-1080x1920-1-.jpg" alt="Handphone" class="img-fluid">
+                </a>
+                <h5 class="text-center mt-3">Penjual: Roussea</h5>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                <a href="#">
+                    <img src="img/barang-import/mombaby1-1080x1920.jpg" alt="Stroller" class="img-fluid">
+                </a>
+                <h5 class="text-center mt-3">Penjual: Auxting</h5>
+            </div>
+        </div>
+        <div class="row my-5 mulai-disini">
+            <div class="col text-center">
+                <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal" data-target="#register">
+                    <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> mulai
+                        dari sini
+                    </h5>
+                    <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="kegiatanOperational">
+        <div class="row mt-5 kegiatan-operational">
+            <div class="col">
+                <h1 class="text-capitalize">bentuk kegiatan operasional dari
+                    gudang <span>importir.org</span></h1>
+                <p>Kurang dari 10 menit, Anda dapat melakukan importasi setelah mengikuti seminar kami.</p>
+                <hr class="line">
+            </div>
+        </div>
+        <div class="row my-3 jumbo-video justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12">
+                <div class="bingkai">
+                    <div class="embed-responsive embed-responsive-16by9 rounded-lg">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/3rqQx5PHk1U" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-3 small-video">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="bingkai">
+                    <div class="embed-responsive embed-responsive-16by9 rounded-lg">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/8LzZCLb7wSA" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="bingkai">
+                    <div class="embed-responsive embed-responsive-16by9 rounded-lg">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/SA7eR10abXA" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="bingkai">
+                    <div class="embed-responsive embed-responsive-16by9 rounded-lg">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/gg8WU7Yh8yI" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="bingkai">
+                    <div class="embed-responsive embed-responsive-16by9 rounded-lg">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/o8FewbA6wCU" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid mt-5 jumbo-bg-yellow">
+        <div class="container jumbo-counter">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+                    <h2>IMPORTIR.ORG sudah mengimpor 450.000+ produk berbeda untuk anggotanya.</h2>
+                    <p>Kini saat nya anda memulai bisnis IMPORT.</p>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                                data-target="#register">
+                                <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i>
+                                    mulai
+                                    dari sini
+                                </h5>
+                                <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="not-social-import">
+        <div class="row my-5 membantu-pengusaha">
+            <div class="col">
+                <p>Kurang dari 10 menit, Anda dapat melakukan importasi setelah mengikuti seminar kami.</p>
+                <h1><span>importir.org</span> bukan hanya soal import tapi juga membantu banyak <b>Para
+                        Pengusaha</b>,
+                    dan
+                    inilah bukti
+                    kesuksesan mereka !</h1>
+            </div>
+        </div>
+        <div class="row my-3 small-video">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-3 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/krRInpVk8IY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <h5 class="mt-2">Bapak Sodik</h5>
+                <p class="text-uppercase">"cuan 100% !! menjadi tangan pertama jualan mesin"</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-3 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/TiQIixFdocU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <h5 class="mt-2">Bapak Albert</h5>
+                <p class="text-uppercase">"importir sukses food & beverages, terjual 3000 pcs/hari !!"</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-3 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/5Op2OFex5nE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <h5 class="mt-2">Bapak Gema</h5>
+                <p class="text-uppercase">"1 produk untung 10 juta !! import produk arsitektur"</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-3 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/f6hDCuCtLE0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <h5 class="mt-2">Bapak Thomas</h5>
+                <p class="text-uppercase">"500 - 600 barang terjual dalam sehari !!"</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-3 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/I_5-Q0EXEGI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="text-uppercase mt-3">"omset rp 1.000.000.000 !! hanya penjual gawang plastik"</p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-3 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/zPNhoHGpWmc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="text-uppercase mt-3">"borong barang senilai 400 juta, di jual untung 600 jutaan !!"</p>
+            </div>
+        </div>
+        <div class="row my-5 testi-disini">
+            <div class="col text-center">
+                <p>Testimonial yang kami tampilkan adalah member IMPORTIR.ORG.</p>
+                <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal" data-target="#register">
+                    <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> mulai
+                        dari sini
+                    </h5>
+                    <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid mt-5 jumbo-bg-yellow mb-0">
+        <div class="container jumbo-counter">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12">
+                    <h2>Sudah saat nya kamu bergabung.</h2>
+                    <p>Tunggu apa lagi , jadilah salah satu dari 2000+ member kami yang berhasil bersama kami, ikuti
+                        seminarnya dan dapatkan ilmu dan tips-tips terbaik untuk meningkatkan bisnis kamu</p>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <button type="button" class="btn register rounded-0 m-auto" data-toggle="modal"
+                                data-target="#register">
+                                <h5 class="text-capitalize font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i>
+                                    mulai
+                                    dari sini
+                                </h5>
+                                <span>klik untuk melihat bagaimana kami membantu member kami</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid menjadi-importir m-0">
+        <div class="container">
+            <div class="row my-5 title">
+                <div class="col">
+                    <h3>sudah siap menjadi importir ?</h3>
+                    <p>daftar seminar dengan klik tombol di bawah</p>
+                </div>
+            </div>
+            <div class="row my-5 daftar-sekarang">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="card text-center">
+                        <div class="price">
+                            <p>seminar</p>
+                            <h4><span><sup>rp</sup></span>100rb</h4>
+                            <span>/Seminar</span>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><span>Kelas Import</span></li>
+                        </ul>
+                    </div>
+                    <div class="daftar text-center my-5">
+                        <a href="#">Daftar Sekarang</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="card text-center">
+                        <div class="price">
+                            <p>seminar</p>
+                            <h4><span><sup>rp</sup></span>9,5 jt</h4>
+                            <span>/Tahun</span>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Limitasi import <span>UNLIMITED</span></li>
+                            <li class="list-group-item"><span>Kelas Import online </span></li>
+                            <li class="list-group-item">Import via <span>Alibaba.com</span></li>
+                            <li class="list-group-item">Import via <span>1688.com</span></li>
+                            <li class="list-group-item">Penggunaan gudang di <span>China</span></li>
+                            <li class="list-group-item">Penggunaan gudang di <span>Indonesia</span></li>
+                            <li class="list-group-item">Penggunaan <span>Izin Import</span> dari
+                                <span>IMPORTIR.ORG</span></li>
+                        </ul>
+                    </div>
+                    <div class="daftar text-center my-5">
+                        <a href="#">Daftar Sekarang</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="card text-center">
+                        <div class="price">
+                            <p>goes to china</p>
+                            <h4><span><sup>&dollar;</sup></span>1300</h4>
+                            <span>/Trip</span>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Limitasi import <span>UNLIMITED</span></li>
+                            <li class="list-group-item"><span>Kelas Import online </span></li>
+                            <li class="list-group-item">Import via <span>Alibaba.com</span></li>
+                            <li class="list-group-item">Import via <span>1688.com</span></li>
+                            <li class="list-group-item">Penggunaan gudang di <span>China</span></li>
+                            <li class="list-group-item">Penggunaan gudang di <span>Indonesia</span></li>
+                            <li class="list-group-item">Penggunaan <span>Izin Import</span> dari
+                                <span>IMPORTIR.ORG</span></li>
+                            <li class="list-group-item"><span>7D6N IMPORTIR.ORG GOES</span> to <span>CHINA</span></li>
+                            <li class="list-group-item"><span>Akomodasi termasuk</span></li>
+                            <li class="list-group-item"><span>Konsumsi termasuk</span></li>
+                            <li class="list-group-item"><span>Transportasi lokal termasuk</span></li>
+                            <li class="list-group-item"><span>Visa China termasuk</span></li>
+                        </ul>
+                    </div>
+                    <div class="daftar text-center my-5">
+                        <a href="#">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row pendaftaran-seminar">
+                <div class="col text-center">
+                    <button type="button" class="btn register rounded-0" data-toggle="modal" data-target="#register">
+                        <h5 class="text-uppercase font-weight-bold"><i class="fas fa-sign-in-alt mr-2"></i> pendaftaran
+                            seminar</h5>
+                        <span class="text-uppercase">klik untuk melakukan pendaftaran</span>
+                    </button>
+                </div>
+            </div>
+            <div class="row footer-importir">
+                <div class="col text-center">
+                    <img src="img/logo/importirorg-logo.png" alt="importir-logo" class="img-fluid">
+                    <p class="text-uppercase mt-3">seminar bisnis</p>
+                    <hr class="line-blue">
+                </div>
+            </div>
+            <div class="row copyright">
+                <a href="#">terms & conditions</a>
+                <p>All Rights Reserved 2020 &copy; <span>importir.org</span></p>
             </div>
         </div>
     </div>

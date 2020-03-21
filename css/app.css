@@ -8,6 +8,12 @@ body {
     margin-bottom: 10px;
 }
 
+.line {
+    margin-top: 30px;
+    width: 10%;
+    border: 1.5px solid rgb(20, 205, 249);
+}
+
 .head,
 .mid {
     background-color: rgb(255, 214, 0);
@@ -18,6 +24,69 @@ body {
 .mid .line-blue {
     width: 10%;
     border: 1.5px solid rgb(0, 117, 178);
+}
+
+.jumbo-bg-yellow {
+    background-color: rgb(255, 214, 0);
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbo-counter h2,
+.jumbo-counter p {
+    text-align: center;
+}
+
+.jumbo-counter h2 {
+    font-size: 32px;
+    color: #2f2f2f;
+    font-weight: 700;
+}
+
+.jumbo-counter p {
+    font-size: 18px;
+    color: rgba(47, 47, 47, 0.7);
+    font-weight: 400;
+}
+
+.jumbo-counter .register {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    position: relative;
+    padding: 10px 25px;
+    background-color: #232323;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-top: 4px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.jumbo-counter h5 {
+    font-size: 20px;
+}
+
+.jumbo-counter span {
+    font-size: 14px;
+}
+
+.bingkai {
+    border: 10px solid #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px -5px #777, 5px -5px 5px -5px #777, -5px 5px 5px -5px #777, -5px -5px 5px -5px #777;
+}
+
+.small-video h5,
+.small-video p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+}
+
+.small-video h5 {
+    font-weight: 700;
+}
+
+.small-video p {
+    font-weight: 400;
+    line-height: 20px;
 }
 
 /* JUMBOTRON */
@@ -202,11 +271,275 @@ body {
     font-size: 23px;
 }
 
-/* END APA ITU IMPORTIR */
-/* SOURCING PRODUCTS */
-.sourcing-products video {
+.sourcing-products video,
+.pembayaran-products video,
+.proses-beacukai video,
+.pelatihan-import video {
     width: 430px;
     height: 430px;
 }
 
-/* END SOURCING PRODUCTS */
+.sourcing-products svg,
+.pembayaran-products svg,
+.proses-beacukai svg,
+.pelatihan-import svg {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.sourcing-products h3,
+.sourcing-products p,
+.pembayaran-products h3,
+.pembayaran-products p,
+.proses-beacukai h3,
+.proses-beacukai p,
+.pelatihan-import h3,
+.pelatihan-import p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.sourcing-products h3,
+.pembayaran-products h3,
+.proses-beacukai h3,
+.pelatihan-import h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sourcing-products .register,
+.pembayaran-products .register,
+.proses-beacukai .register,
+.pelatihan-import .register {
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    position: relative;
+    padding: 10px 25px;
+    background-color: rgb(255, 214, 0);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.sourcing-products .register svg,
+.pembayaran-products .register svg,
+.proses-beacukai .register svg,
+.pelatihan-import .register svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.sourcing-products .register span,
+.pembayaran-products .register span,
+.proses-beacukai .register span,
+.pelatihan-import .register span {
+    font-size: 14px;
+}
+
+.sourcing-products .first-column,
+.proses-beacukai .first-column {
+    order: 1;
+}
+
+.sourcing-products .last-column,
+.proses-beacukai .last-column {
+    order: 2;
+}
+
+.pembayaran-products .first-column,
+.pelatihan-import .first-column {
+    order: 2;
+}
+
+.pembayaran-products .last-column,
+.pelatihan-import .last-column {
+    order: 1;
+}
+
+/* END APA ITU IMPORTIR */
+/* OUR PRODUTCS */
+
+.see-our-products h1,
+.kegiatan-operational h1,
+.membantu-pengusaha h1 {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 214, 0);
+    font-size: 32px;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    padding: 20px 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.see-our-products h1 span,
+.kegiatan-operational h1 span,
+.membantu-pengusaha h1 span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.see-our-products p,
+.kegiatan-operational p,
+.membantu-pengusaha p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.mulai-disini button,
+.testi-disini button {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    position: relative;
+    padding: 10px 25px;
+    background-color: rgb(255, 214, 0);
+    color: #2f2f2f;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-shadow: none;
+}
+
+.testi-disini p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #2f2f2f;
+}
+
+/* END OUR PRODUTCS */
+.menjadi-importir {
+    background-image: url('../img/parallax-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menjadi-importir .title h3 {
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #363636;
+}
+
+.menjadi-importir .title p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6e0900;
+}
+
+.menjadi-importir .daftar-sekarang .price {
+    width: 100%;
+    background-color: rgb(255, 214, 0);
+    padding: 20px 0;
+}
+
+.menjadi-importir .daftar-sekarang .price p,
+.menjadi-importir .daftar-sekarang .price h4,
+.menjadi-importir .daftar-sekarang ul li,
+.menjadi-importir .daftar-sekarang a {
+    font-family: 'Raleway', sans-serif;
+}
+
+.menjadi-importir .daftar-sekarang .price p {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menjadi-importir .daftar-sekarang .price h4 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.menjadi-importir .daftar-sekarang .price h4 span {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.menjadi-importir .daftar-sekarang .price h4 span sup {
+    vertical-align: top;
+    top: 10px;
+}
+
+.menjadi-importir .daftar-sekarang .price span {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+}
+
+.menjadi-importir .daftar-sekarang ul li span {
+    font-weight: 700;
+}
+
+.menjadi-importir .daftar-sekarang a {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 214, 0);
+    color: #2d2d2d;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+}
+
+.menjadi-importir .daftar-sekarang a:hover,
+.menjadi-importir .daftar-sekarang a:active {
+    text-decoration: none;
+    background-color: rgb(233, 195, 3);
+}
+
+.daftar-sekarang .card {
+    border: none;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: rgb(255, 214, 0);
+}
+
+.pendaftaran-seminar button {
+    width: 90%;
+    position: relative;
+    top: -50%;
+}
+
+.footer-importir img {
+    width: 200px;
+}
+
+.footer-importir p {
+    font-size: 16px;
+}
+
+.footer-importir .line-blue {
+    width: 50px;
+    border: 1px solid rgb(20, 205, 249);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.copyright a,
+.copyright p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #000;
+}
+
+.copyright p span,
+.copyright a {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+}
