@@ -89,7 +89,6 @@ body {
     line-height: 20px;
 }
 
-/* JUMBOTRON */
 .head h4 {
     font-size: 60px;
     letter-spacing: 1px;
@@ -120,9 +119,6 @@ body {
     border: 3px solid;
 }
 
-/* END JUMBOTRON */
-
-/* REGISTER */
 .register {
     font-family: 'Raleway', sans-serif;
     width: 70%;
@@ -147,9 +143,6 @@ body {
     margin: 60px 0;
 }
 
-/* END REGISTER */
-
-/* COMMIT IMPORTIR */
 .commit-importir svg {
     font-size: 100px;
 }
@@ -162,16 +155,11 @@ body {
     margin-top: 30px;
 }
 
-/* END COMMIT IMPORTIR */
-
-/* IMPORTIR LIPUTAN */
 .importir-liputan h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
 }
 
-/* END IMPORTIR LIPUTAN */
-/* JUMBOTRON MID */
 .mid h3 {
     font-size: 50px;
     letter-spacing: 1px;
@@ -215,8 +203,6 @@ body {
     color: rgb(237, 239, 240);
 }
 
-/* END JUMBOTRON MID */
-/* APA ITU IMPORTIR */
 .importir-what h1 {
     font-family: 'Raleway', sans-serif;
     background-color: rgb(255, 214, 0);
@@ -355,9 +341,6 @@ body {
     order: 1;
 }
 
-/* END APA ITU IMPORTIR */
-/* OUR PRODUTCS */
-
 .see-our-products h1,
 .kegiatan-operational h1,
 .membantu-pengusaha h1 {
@@ -404,7 +387,6 @@ body {
     color: #2f2f2f;
 }
 
-/* END OUR PRODUTCS */
 .menjadi-importir {
     background-image: url('../img/parallax-bg.jpg');
     background-size: cover;
