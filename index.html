@@ -66,17 +66,6 @@
     <div id="screen">
         <div class="load"></div>
     </div>
-    <script>
-        const content = document.getElementById('content');
-        const screens = document.getElementById('screen');
-        window.onload = () => {
-            screens.classList.add('hide');
-            content.attributes.removeNamedItem('style');
-            setInterval(() => {
-                content.removeChild(screens);
-            }, 2000)
-        }
-    </script>
     <div class="jumbotron jumbotron-fluid head">
         <div class="container">
             <div class="row">
@@ -827,6 +816,19 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/all.js"></script>
     <script src="js/app.js"></script>
+    <script>
+        const content = document.getElementById('content');
+        const screens = document.getElementById('screen');
+        window.onload = () => {
+            screens.classList.add('hide');
+            content.attributes.removeNamedItem('style');
+            const rmE = setInterval(() => {
+                if (content.removeChild(screens)) {
+                    clearInterval(rmE);
+                }
+            }, 2000);
+        }
+    </script>
 </body>
 
 </html>
